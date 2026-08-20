@@ -846,7 +846,7 @@ button {
 }
 
 .logo img {
-    height: 70px; /* Ajustá este valor si lo querés un poco más grande o chico */
+    height: 100px; /* Ajustá este valor si lo querés un poco más grande o chico */
     width: auto;
     display: block;
     object-fit: contain;

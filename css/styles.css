@@ -121,39 +121,35 @@ button {
 
 
 /* LOGO */
-
 .logo {
     display: inline-flex;
-
-    flex-direction: column;
-
-    line-height: 1;
+    align-items: center;
 }
 
+.logo img {
+    height: 70px; /* Ajustá el alto si lo necesitás más grande o chico */
+    width: auto;  /* Mantiene la proporción para que no se deforme */
+    display: block;
+    object-fit: contain;
+}
 
+/* Estilos de respaldo por si usás texto en el footer */
 .logo-main {
     font-size: 1.4rem;
     font-weight: 800;
     letter-spacing: 0.05em;
 }
 
-
 .logo-it {
     color: var(--blue);
-
     font-size: 1.4rem;
     font-weight: 800;
 }
 
-
 .logo-subtitle {
-
     margin-top: 5px;
-
     color: var(--text-secondary);
-
     font-size: 0.55rem;
-
     letter-spacing: 0.14em;
     text-transform: uppercase;
 }

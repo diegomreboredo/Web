@@ -2,20 +2,15 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
-
-    <meta
-        name="description"
-        content="ReborIT - Soluciones tecnológicas, soporte técnico, mantenimiento de PC, redes y asistencia informática."
-    >
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ReborIT - Soluciones tecnológicas, soporte técnico, mantenimiento de PC, redes y asistencia informática.">
     <title>ReborIT | Soluciones Tecnológicas</title>
 
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="assets/logo/favicon.ico" type="image/x-icon">
+
+    <!-- Carga de íconos vectoriales de Lucide -->
+    <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 
 <body>
@@ -25,43 +20,27 @@
     ========================== -->
 
     <header class="header">
-
         <div class="container header-container">
 
             <a href="#" class="logo">
-                <span class="logo-main">REBOR</span><span class="logo-it">IT</span>
-                <span class="logo-subtitle">
-                    Soluciones Tecnológicas
-                </span>
+                <img src="assets/logo/logo.png" alt="ReborIT - Soluciones Tecnológicas">
             </a>
 
             <nav class="nav" id="nav">
-
                 <a href="#servicios">Servicios</a>
                 <a href="#nosotros">Nosotros</a>
                 <a href="#contacto">Contacto</a>
 
-                <a
-                    href="https://wa.me/"
-                    class="nav-whatsapp"
-                    target="_blank"
-                    rel="noopener"
-                >
-                    WhatsApp
+                <a href="https://wa.me/5491125256629" class="nav-whatsapp" target="_blank" rel="noopener">
+                    <i data-lucide="message-circle"></i> WhatsApp
                 </a>
-
             </nav>
 
-            <button
-                class="menu-button"
-                id="menuButton"
-                aria-label="Abrir menú"
-            >
-                ☰
+            <button class="menu-button" id="menuButton" aria-label="Abrir menú">
+                <i data-lucide="menu"></i>
             </button>
 
         </div>
-
     </header>
 
 
@@ -72,80 +51,50 @@
         ========================== -->
 
         <section class="hero">
-
             <div class="container hero-container">
 
                 <div class="hero-content">
+                    <span class="hero-tag">SOLUCIONES TECNOLÓGICAS</span>
 
-                    <span class="hero-tag">
-                        SOLUCIONES TECNOLÓGICAS
-                    </span>
-
-                    <h1>
-                        Tu tecnología
-                        <span>debería funcionar.</span>
-                    </h1>
+                    <h1>Tu tecnología <span>debería funcionar.</span></h1>
 
                     <p class="hero-description">
-                        Soporte técnico, mantenimiento, optimización
-                        y soluciones informáticas para tu PC, dispositivos
-                        y redes.
+                        Soporte técnico, mantenimiento, optimización y soluciones informáticas para tu PC, dispositivos y redes.
                     </p>
 
                     <div class="hero-buttons">
-
-                        <a
-                            href="https://wa.me/"
-                            class="button button-primary"
-                            target="_blank"
-                            rel="noopener"
-                        >
-                            <span>💬</span>
+                        <a href="https://wa.me/5491125256629" class="button button-primary" target="_blank" rel="noopener">
+                            <i data-lucide="message-square"></i>
                             Consultar por WhatsApp
                         </a>
 
-                        <a
-                            href="#servicios"
-                            class="button button-secondary"
-                        >
+                        <a href="#servicios" class="button button-secondary">
                             Ver servicios
-                            <span>→</span>
+                            <i data-lucide="arrow-right"></i>
                         </a>
-
                     </div>
-
                 </div>
 
-
-                <!-- Elemento visual -->
-
                 <div class="hero-visual">
-
                     <div class="tech-card">
-
                         <div class="tech-card-top">
                             <span class="status-dot"></span>
                             SISTEMA ACTIVO
                         </div>
 
                         <div class="computer-icon">
-                            💻
+                            <i data-lucide="laptop" style="width: 48px; height: 48px;"></i>
                         </div>
 
                         <div class="tech-lines">
-
                             <span></span>
                             <span></span>
                             <span></span>
-
                         </div>
-
                     </div>
-
                 </div>
 
             </div>
-
         </section>
 
 
@@ -154,72 +103,41 @@
         ========================== -->
 
         <section class="problems" id="problemas">
-
             <div class="container">
 
                 <div class="section-heading">
-
-                    <span class="section-tag">
-                        ¿TE ESTÁ PASANDO?
-                    </span>
-
-                    <h2>
-                        La tecnología no debería complicarte.
-                    </h2>
-
-                    <p>
-                        Si alguno de estos problemas te resulta familiar,
-                        podemos ayudarte.
-                    </p>
-
+                    <span class="section-tag">¿TE ESTÁ PASANDO?</span>
+                    <h2>La tecnología no debería complicarte.</h2>
+                    <p>Si alguno de estos problemas te resulta familiar, podemos ayudarte.</p>
                 </div>
 
-
                 <div class="problem-grid">
-
                     <article class="problem-card">
-                        <span class="problem-icon">🐌</span>
+                        <span class="problem-icon"><i data-lucide="gauge"></i></span>
                         <h3>PC lenta</h3>
-                        <p>
-                            Tu computadora tarda demasiado en iniciar
-                            o ejecutar programas.
-                        </p>
+                        <p>Tu computadora tarda demasiado en iniciar o ejecutar programas.</p>
                     </article>
 
-
                     <article class="problem-card">
-                        <span class="problem-icon">🦠</span>
+                        <span class="problem-icon"><i data-lucide="shield-alert"></i></span>
                         <h3>Virus o malware</h3>
-                        <p>
-                            Comportamientos extraños, publicidad
-                            o programas que no reconocés.
-                        </p>
+                        <p>Comportamientos extraños, publicidad o programas que no reconocés.</p>
                     </article>
 
-
                     <article class="problem-card">
-                        <span class="problem-icon">📶</span>
+                        <span class="problem-icon"><i data-lucide="wifi-off"></i></span>
                         <h3>Problemas de Wi-Fi</h3>
-                        <p>
-                            Cortes, poca señal o dispositivos
-                            que no logran conectarse.
-                        </p>
+                        <p>Cortes, poca señal o dispositivos que no logran conectarse.</p>
                     </article>
-
 
                     <article class="problem-card">
-                        <span class="problem-icon">⚙️</span>
+                        <span class="problem-icon"><i data-lucide="wrench"></i></span>
                         <h3>Configuración</h3>
-                        <p>
-                            ¿No sabés cómo instalar o configurar
-                            algo? Te ayudamos.
-                        </p>
+                        <p>¿No sabés cómo instalar o configurar algo? Te ayudamos.</p>
                     </article>
-
                 </div>
 
             </div>
-
         </section>
 
 
@@ -228,134 +146,59 @@
         ========================== -->
 
         <section class="services" id="servicios">
-
             <div class="container">
 
                 <div class="section-heading">
-
-                    <span class="section-tag">
-                        NUESTROS SERVICIOS
-                    </span>
-
-                    <h2>
-                        Soluciones para tu tecnología.
-                    </h2>
-
-                    <p>
-                        Servicios informáticos pensados para resolver
-                        problemas reales.
-                    </p>
-
+                    <span class="section-tag">NUESTROS SERVICIOS</span>
+                    <h2>Soluciones para tu tecnología.</h2>
+                    <p>Servicios informáticos pensados para resolver problemas reales.</p>
                 </div>
 
-
                 <div class="services-grid">
-
                     <article class="service-card">
-
                         <span class="service-number">01</span>
-                        <span class="service-icon">💻</span>
-
-                        <h3>
-                            Mantenimiento de PC
-                        </h3>
-
-                        <p>
-                            Limpieza, optimización y puesta a punto
-                            de computadoras.
-                        </p>
-
+                        <span class="service-icon"><i data-lucide="monitor"></i></span>
+                        <h3>Mantenimiento de PC</h3>
+                        <p>Limpieza, optimización y puesta a punto de computadoras.</p>
                     </article>
 
-
                     <article class="service-card">
-
                         <span class="service-number">02</span>
-                        <span class="service-icon">🛠️</span>
-
-                        <h3>
-                            Soporte técnico
-                        </h3>
-
-                        <p>
-                            Diagnóstico y resolución de problemas
-                            informáticos.
-                        </p>
-
+                        <span class="service-icon"><i data-lucide="headphones"></i></span>
+                        <h3>Soporte técnico</h3>
+                        <p>Diagnóstico y resolución de problemas informáticos.</p>
                     </article>
 
-
                     <article class="service-card">
-
                         <span class="service-number">03</span>
-                        <span class="service-icon">🛡️</span>
-
-                        <h3>
-                            Seguridad
-                        </h3>
-
-                        <p>
-                            Detección y eliminación de amenazas
-                            y software no deseado.
-                        </p>
-
+                        <span class="service-icon"><i data-lucide="shield-check"></i></span>
+                        <h3>Seguridad</h3>
+                        <p>Detección y eliminación de amenazas y software no deseado.</p>
                     </article>
 
-
                     <article class="service-card">
-
                         <span class="service-number">04</span>
-                        <span class="service-icon">📡</span>
-
-                        <h3>
-                            Redes y Wi-Fi
-                        </h3>
-
-                        <p>
-                            Configuración y optimización
-                            de redes domésticas y pequeñas empresas.
-                        </p>
-
+                        <span class="service-icon"><i data-lucide="network"></i></span>
+                        <h3>Redes y Wi-Fi</h3>
+                        <p>Configuración y optimización de redes domésticas y pequeñas empresas.</p>
                     </article>
 
-
                     <article class="service-card">
-
                         <span class="service-number">05</span>
-                        <span class="service-icon">💾</span>
-
-                        <h3>
-                            Respaldo de información
-                        </h3>
-
-                        <p>
-                            Copias de seguridad y asistencia
-                            para proteger tus archivos.
-                        </p>
-
+                        <span class="service-icon"><i data-lucide="hard-drive"></i></span>
+                        <h3>Respaldo de información</h3>
+                        <p>Copias de seguridad y asistencia para proteger tus archivos.</p>
                     </article>
-
 
                     <article class="service-card">
-
                         <span class="service-number">06</span>
-                        <span class="service-icon">⚙️</span>
-
-                        <h3>
-                            Instalaciones
-                        </h3>
-
-                        <p>
-                            Sistemas operativos, programas,
-                            periféricos y configuraciones.
-                        </p>
-
+                        <span class="service-icon"><i data-lucide="cpu"></i></span>
+                        <h3>Instalaciones</h3>
+                        <p>Sistemas operativos, programas, periféricos y configuraciones.</p>
                     </article>
-
                 </div>
 
             </div>
-
         </section>
 
 
@@ -364,33 +207,15 @@
         ========================== -->
 
         <section class="cta" id="contacto">
-
             <div class="container cta-container">
+                <span class="section-tag">¿NECESITÁS AYUDA?</span>
+                <h2>Contanos qué problema tenés.</h2>
+                <p>Analizamos tu situación y buscamos la mejor solución.</p>
 
-                <span class="section-tag">
-                    ¿NECESITÁS AYUDA?
-                </span>
-
-                <h2>
-                    Contanos qué problema tenés.
-                </h2>
-
-                <p>
-                    Analizamos tu situación y buscamos
-                    la mejor solución.
-                </p>
-
-                <a
-                    href="https://wa.me/"
-                    class="button button-primary"
-                    target="_blank"
-                    rel="noopener"
-                >
-                    💬 Hablar por WhatsApp
+                <a href="https://wa.me/5491125256629" class="button button-primary" target="_blank" rel="noopener">
+                    <i data-lucide="message-square"></i> Hablar por WhatsApp
                 </a>
-
             </div>
-
         </section>
 
     </main>
@@ -401,61 +226,36 @@
     ========================== -->
 
     <footer class="footer">
-
         <div class="container footer-container">
-
             <div>
-
                 <div class="logo footer-logo">
-                    <span class="logo-main">REBOR</span><span class="logo-it">IT</span>
-                    <span class="logo-subtitle">
-                        Soluciones Tecnológicas
-                    </span>
+                    <img src="assets/logo/logo.png" alt="ReborIT - Soluciones Tecnológicas" style="max-height: 40px;">
                 </div>
-
-                <p>
-                    Tecnología sin complicaciones.
-                </p>
-
+                <p>Tecnología sin complicaciones.</p>
             </div>
 
-
             <div class="footer-links">
-
                 <a href="#servicios">Servicios</a>
                 <a href="#problemas">Problemas</a>
                 <a href="#contacto">Contacto</a>
-
             </div>
-
         </div>
-
 
         <div class="container footer-bottom">
-
-            <p>
-                © 2026 ReborIT. Todos los derechos reservados.
-            </p>
-
+            <p>© 2026 ReborIT. Todos los derechos reservados.</p>
         </div>
-
     </footer>
 
 
     <!-- WhatsApp flotante -->
-
-    <a
-        href="https://wa.me/"
-        class="whatsapp-floating"
-        target="_blank"
-        rel="noopener"
-        aria-label="Contactar por WhatsApp"
-    >
-        💬
+    <a href="https://wa.me/5491125256629" class="whatsapp-floating" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
+        <i data-lucide="message-circle"></i>
     </a>
 
-
     <script src="js/main.js"></script>
-
+    <script>
+        // Inicializar los íconos de Lucide
+        lucide.createIcons();
+    </script>
 </body>
 </html>

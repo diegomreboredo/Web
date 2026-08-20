@@ -120,119 +120,38 @@ button {
 }
 
 
-/* =========================
-   LOGO
-========================== */
+/* LOGO */
 .logo {
     display: inline-flex;
     align-items: center;
-    gap: 10px;
-    text-decoration: none;
 }
 
-.logo-icon {
-    height: 38px;
-    width: auto;
+.logo img {
+    height: 70px; /* Ajustá el alto si lo necesitás más grande o chico */
+    width: auto;  /* Mantiene la proporción para que no se deforme */
+    display: block;
     object-fit: contain;
 }
 
-.logo-text {
-    display: flex;
-    flex-direction: column;
-    line-height: 1;
-}
-
+/* Estilos de respaldo por si usás texto en el footer */
 .logo-main {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     font-weight: 800;
-    color: #3b82f6;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.05em;
 }
 
 .logo-it {
-    font-size: 1.3rem;
+    color: var(--blue);
+    font-size: 1.4rem;
     font-weight: 800;
-    color: #ffffff;
 }
 
 .logo-subtitle {
-    margin-top: 3px;
-    color: #94a3b8;
-    font-size: 0.5rem;
-    letter-spacing: 0.12em;
+    margin-top: 5px;
+    color: var(--text-secondary);
+    font-size: 0.55rem;
+    letter-spacing: 0.14em;
     text-transform: uppercase;
-}
-
-/* =========================
-   FOOTER (Alineación Centrada)
-========================== */
-.footer {
-    padding: 3rem 0 1.5rem;
-    background-color: #030712;
-}
-
-.footer-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 1.5rem;
-}
-
-.footer-brand {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.footer-brand p {
-    margin-top: 8px;
-    color: #94a3b8;
-    font-size: 0.9rem;
-}
-
-.footer-links {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.8rem;
-}
-
-.footer-links a {
-    color: #94a3b8;
-    text-decoration: none;
-    transition: color 0.2s ease;
-}
-
-.footer-links a:hover {
-    color: #3b82f6;
-}
-
-.footer-bottom {
-    margin-top: 2rem;
-    padding-top: 1rem;
-    border-top: 1px solid #1e293b;
-    text-align: center;
-    color: #64748b;
-    font-size: 0.85rem;
-}
-
-/* Ajuste para Desktop (Alineación horizontal limpia) */
-@media (min-width: 768px) {
-    .footer-container {
-        flex-direction: row;
-        justify-content: space-between;
-        text-align: left;
-    }
-
-    .footer-brand {
-        align-items: flex-start;
-    }
-
-    .footer-links {
-        flex-direction: row;
-        gap: 1.5rem;
-    }
 }
 
 
@@ -833,7 +752,61 @@ button {
 }
 
 
+/* ========================================
+   FOOTER
+======================================== */
 
+.footer {
+
+    padding: 60px 0 25px;
+
+    background: #05070b;
+}
+
+
+.footer-container {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    gap: 40px;
+}
+
+
+.footer-logo {
+    margin-bottom: 15px;
+}
+
+
+.footer-container p {
+
+    color: var(--text-secondary);
+
+    font-size: 0.85rem;
+}
+
+
+.footer-links {
+
+    display: flex;
+
+    gap: 25px;
+
+    color: var(--text-secondary);
+
+    font-size: 0.85rem;
+}
+
+
+.footer-bottom {
+
+    margin-top: 50px;
+
+    padding-top: 20px;
+
+    border-top: 1px solid var(--border);
+}
 
 
 /* ========================================

@@ -407,4 +407,90 @@
                         </div>
 
                         <div style="margin-bottom: 15px;">
-                            <label for="email" style="display:block; margin-bottom: 5px; font-size: 0.9rem; color: #cbd5e1;">Co
+                            <label for="email" style="display:block; margin-bottom: 5px; font-size: 0.9rem; color: #cbd5e1;">Correo electrónico</label>
+                            <input type="email" id="email" name="email" placeholder="tuemail@ejemplo.com" data-fs-field required style="width: 100%; padding: 10px; background: #0f172a; border: 1px solid #334155; border-radius: 6px; color: #fff;">
+                            <span data-fs-error="email"></span>
+                        </div>
+
+                        <div style="margin-bottom: 15px;">
+                            <label for="telefono" style="display:block; margin-bottom: 5px; font-size: 0.9rem; color: #cbd5e1;">Teléfono / WhatsApp</label>
+                            <input type="tel" id="telefono" name="telefono" placeholder="Ej: 11 2525-6629" data-fs-field style="width: 100%; padding: 10px; background: #0f172a; border: 1px solid #334155; border-radius: 6px; color: #fff;">
+                        </div>
+
+                        <div style="margin-bottom: 15px;">
+                            <label for="tipo_servicio" style="display:block; margin-bottom: 5px; font-size: 0.9rem; color: #cbd5e1;">Tipo de consulta</label>
+                            <select id="tipo_servicio" name="tipo_servicio" data-fs-field style="width: 100%; padding: 10px; background: #0f172a; border: 1px solid #334155; border-radius: 6px; color: #fff;">
+                                <option value="taller">Recepción en Taller / Presencial</option>
+                                <option value="remoto">Soporte Remoto</option>
+                                <option value="otro">Consulta general</option>
+                            </select>
+                        </div>
+
+                        <div style="margin-bottom: 20px;">
+                            <label for="mensaje" style="display:block; margin-bottom: 5px; font-size: 0.9rem; color: #cbd5e1;">Detalle del problema</label>
+                            <textarea id="mensaje" name="mensaje" rows="4" placeholder="Describí brevemente qué le pasa a tu equipo..." data-fs-field required style="width: 100%; padding: 10px; background: #0f172a; border: 1px solid #334155; border-radius: 6px; color: #fff;"></textarea>
+                            <span data-fs-error="mensaje"></span>
+                        </div>
+
+                        <button type="submit" data-fs-submit-btn class="button button-primary" style="width: 100%; justify-content: center; cursor: pointer;">
+                            Enviar Mensaje por Email
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div>
+                <div class="logo footer-logo">
+                    <div class="footer-brand">
+                        <span class="logo-main" style="font-weight: 800; font-size: 1.4rem; color: #3b82f6;">REBOR</span><span class="logo-it" style="font-weight: 800; font-size: 1.4rem; color: #ffffff;">IT</span>
+                        <p style="margin-top: 6px; font-size: 0.9rem; color: #94a3b8;">Tecnología sin complicaciones.</p>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <a href="#modalidad">Cómo Trabajamos</a>
+                    <a href="#servicios">Servicios</a>
+                    <a href="#nosotros">Nosotros</a>
+                    <a href="#faq">FAQ</a>
+                    <a href="#contacto">Contacto</a>
+                </div>
+            </div>
+
+            <div class="container footer-bottom">
+                <p>© 2026 ReborIT. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- WhatsApp flotante -->
+    <a href="https://wa.me/5491125256629?text=Hola!%20Tengo%20una%20consulta%20técnica." class="whatsapp-floating" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
+        <i data-lucide="message-circle"></i>
+    </a>
+
+    <!-- Scripts de la app y librerías -->
+    <script src="js/main.js"></script>
+    <script>
+        // Inicializar los íconos de Lucide
+        lucide.createIcons();
+    </script>
+
+    <!-- Conexión Formspree AJAX -->
+    <script>
+      window.formspree = window.formspree || function () { (formspree.q = formspree.q || []).push(arguments); };
+      formspree('initForm', { formElement: '#reborit-form', formId: 'xzebzvay' });
+    </script>
+    <script src="https://unpkg.com/@formspree/ajax@1" defer></script>
+</body>
+</html>
